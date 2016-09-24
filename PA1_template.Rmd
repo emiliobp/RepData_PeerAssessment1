@@ -1,3 +1,5 @@
+
+```{r }
 ---
 title: "PA1_template.Rmd"
 author: "Emilio Blanco"
@@ -127,3 +129,5 @@ library(lattice)
 with (wkagg, xyplot(steps ~ interval|weekday, type="l", 
              ylab="Number of steps",layout=c(1,2)))
 ```
+```
+
